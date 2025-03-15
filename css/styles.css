@@ -90,11 +90,7 @@
 :root {
     --font-1: "Inter", sans-serif;
     --font-2: "DM Serif Text", serif;
-<<<<<<< HEAD
     --font-3: cursive;
-=======
-    --font-3: "DM Serif Display", serif;
->>>>>>> f930b3c279b7178fa8331f303dad7b3064a352b5
 
     /* monospace
      */
@@ -3481,6 +3477,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     height: var(--logo-height);
     margin: 0;
     vertical-align: bottom;
+    filter: brightness(150%);
+    zoom: 150%;
 }
 
 /* -------------------------------------------------------------------
@@ -4195,11 +4193,7 @@ body.search-is-visible {
     font-family: var(--font-3);
     font-size: 8.8rem;
     font-weight: 400;
-<<<<<<< HEAD
     line-height: 1;
-=======
-    line-height: 1.091;
->>>>>>> f930b3c279b7178fa8331f303dad7b3064a352b5
     letter-spacing: -.01em;
     color: white;
     margin-top: 0;
@@ -4211,11 +4205,7 @@ body.search-is-visible {
     color: white;
 }
 
-<<<<<<< HEAD
 /* -------------------------------------------------------------------
-=======
-/* ------------------------------------------------------------------- 
->>>>>>> f930b3c279b7178fa8331f303dad7b3064a352b5
  * ## hero social
  * ------------------------------------------------------------------- */
 .s-hero__social {
