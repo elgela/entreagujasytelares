@@ -3427,10 +3427,10 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * ------------------------------------------------------------------- */
 .s-header {
     --header-height: 8.8rem;
-    --logo-width: 96px;
-    --logo-height: 24px;
+    --logo-width: 50px;
+    --logo-height: 45px;
     z-index: 100;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.2);
     width: 100%;
     height: var(--header-height);
     border-bottom: 1px solid rgba(255, 255, 255, 0.05);
