@@ -3120,7 +3120,9 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     --brick-padding: 4rem;
     padding-top: var(--vspace-4);
     padding-bottom: var(--vspace-2_25);
-    background-color: white;
+    /* background-color: white; */
+    background-image: url("/images/fondo.jpeg");
+    filter: brightness(0.7);
 }
 
 .s-bricks--half-top-padding {
@@ -3186,8 +3188,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     border-top: 1px solid var(--color-border);
 }
 
-/* ------------------------------------------------------------------- 
- * ## masonry entries 
+/* -------------------------------------------------------------------
+ * ## masonry entries
  * ------------------------------------------------------------------- */
 .bricks-wrapper .entry__thumb {
     overflow: hidden;
@@ -3262,6 +3264,12 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .bricks-wrapper .entry__text {
     padding: 2.8rem 0 3.6rem;
     text-align: center;
+    background-color: #63656570;
+}
+
+.bricks-wrapper .entry__text h1 {
+    color: #000000;
+    background-color: #a1a3a3;
 }
 
 .bricks-wrapper .entry__title {
