@@ -3329,6 +3329,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .bricks-wrapper .entry__excerpt p {
     margin-bottom: var(--vspace-0_75);
+    background-color: #a1a3a3;
+    color: #000000;
 }
 
 .bricks-wrapper .entry__more-link {
