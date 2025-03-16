@@ -1713,6 +1713,7 @@ h6, .h6 {
     font-size: var(--text-md);
     line-height: calc(1.125 * var(--space));
     color: var(--color-text-dark);
+    text-align: center;
 }
 
 @media screen and (max-width: 400px) {
@@ -3260,6 +3261,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .bricks-wrapper .entry__text {
     padding: 2.8rem 0 3.6rem;
+    text-align: center;
 }
 
 .bricks-wrapper .entry__title {
