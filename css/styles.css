@@ -3121,7 +3121,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     padding-top: var(--vspace-4);
     padding-bottom: var(--vspace-2_25);
     /* background-color: white; */
-    background-image: url("/images/fondo.jpeg");
+    background-image: url("images/fondo.jpeg");
     filter: brightness(0.7);
 }
 
