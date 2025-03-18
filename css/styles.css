@@ -1716,6 +1716,7 @@ h6, .h6 {
     text-align: center;
 }
 
+
 @media screen and (max-width: 400px) {
     .lead, .attention-getter {
         font-size: calc(var(--text-size) * 1.0556);
@@ -4488,9 +4489,9 @@ body.search-is-visible {
     max-width: var(--row-max-width);
 }
 
-.s-content__entry {
+/* .s-content__entry {
     padding-bottom: var(--vspace-4);
-}
+} */
 
 .s-content__blocks h4 {
     margin-top: 0;
