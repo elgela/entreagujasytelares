@@ -4592,6 +4592,10 @@ body.search-is-visible {
     max-width: 900px;
 }
 
+.s-content__page-content .lead span {
+    font-family: cursive;
+}
+
 .s-content__entry-meta, .s-content__pagenav {
     -ms-flex: 0 0 210px;
     -webkit-box-flex: 0;
