@@ -1542,6 +1542,16 @@ textarea {
     float: right;
 }
 
+.icon-link {
+    /* display: inline-block;
+    width: auto; */
+}
+
+.redes {
+    text-align: center;
+}
+
+
 
 /* ===================================================================
  * # custom grid, block grid STACK breakpoints
