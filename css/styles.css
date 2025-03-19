@@ -1542,10 +1542,10 @@ textarea {
     float: right;
 }
 
-.icon-link {
-    /* display: inline-block;
-    width: auto; */
-}
+/* .icon-link {
+    display: inline-block;
+    width: auto;
+} */
 
 .redes {
     text-align: center;
@@ -1726,6 +1726,11 @@ h6, .h6 {
     text-align: center;
 }
 
+p.lead {
+    /* background-color: #c9cdcd9d; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
 
 @media screen and (max-width: 400px) {
     .lead, .attention-getter {
@@ -4487,8 +4492,9 @@ body.search-is-visible {
  * ------------------------------------------------------------------- */
 .s-content {
     --row-max-width: 1400px;
-    background-color: white;
+    background-color: rgb(186, 183, 183);
     padding-top: calc(5.5 * var(--space));
+    /* background-image: url("../images/fondo.webp"); */
 }
 
 .s-content--no-top-padding {
@@ -4564,6 +4570,8 @@ body.search-is-visible {
     margin-top: 0;
     letter-spacing: -.01em;
     text-align: center;
+    background-color: #828686;
+    border-radius: 20px;
 }
 
 /* -------------------------------------------------------------------
@@ -4684,6 +4692,7 @@ body.search-is-visible {
     font-weight: 300;
     line-height: var(--vspace-1);
     padding-left: 3.2rem;
+    background-color: #999c9c9d;
 }
 
 .s-content__pagenav>div {
@@ -4691,7 +4700,7 @@ body.search-is-visible {
 }
 
 .s-content__pagenav a {
-    color: var(--color-text-light);
+    color: black;
 }
 
 .s-content__pagenav a:hover,
@@ -5097,7 +5106,7 @@ body.search-is-visible {
  * ------------------------------------------------------------------- */
 .comments-wrap {
     padding-bottom: var(--vspace-4);
-    background-color: white;
+    background-color: rgb(208, 207, 207);
 }
 
 .comments-wrap h3 {
