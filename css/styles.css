@@ -4919,6 +4919,10 @@ body.search-is-visible {
     color: var(--color-gray-14);
 }
 
+.s-footer__main p {
+    text-align: center;
+}
+
 .s-footer__main ul a:hover, .s-footer__main ul a:focus {
     color: black;
 }
