@@ -240,7 +240,7 @@
                     setTimeout(function() {
                         box.style.display = "none";
                     }, 500)
-                }    
+                }
             });
 
         })
@@ -310,3 +310,25 @@
     })();
 
 })(jQuery);
+
+const videoPlayer = document.getElementById('video-player');
+const videos = ['videos/telar_plano.mp4', 'videos/saco_fusion_crochet.mp4', 'videos/telar_redondo_dique.mp4', 'videos/miton_telar.mp4', 'videos/elastico-pantumedias_FDy94QUL.mp4']; // Lista de videos
+let currentIndex = 0;
+
+// Función para actualizar el video visible
+function updateVideo() {
+    videoPlayer.src = videos[currentIndex];
+    videoPlayer.play(); // Reproduce automáticamente el video al cambiar
+  }
+  
+  // Botón "Anterior"
+  document.querySelector('.prev').addEventListener('click', () => {
+    currentIndex = (currentIndex - 1 + videos.length) % videos.length; // Navega hacia atrás
+    updateVideo();
+  });
+  
+  // Botón "Siguiente"
+  document.querySelector('.next').addEventListener('click', () => {
+    currentIndex = (currentIndex + 1) % videos.length; // Navega hacia adelante
+    updateVideo();
+  });
