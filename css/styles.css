@@ -675,6 +675,7 @@ object {
     width: 80%;
     justify-content: center;
     align-items: center;
+    padding-bottom: 40px;
 }
 
 .prev:hover,
