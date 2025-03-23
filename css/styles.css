@@ -3521,6 +3521,12 @@ input::-moz-focus-inner {
 /* -------------------------------------------------------------------
  * ## masonry entries
  * ------------------------------------------------------------------- */
+.entry__thumb p {
+    margin-left: 10%;
+    font-size: small;
+    margin-top: -25px;
+}
+
 .bricks-wrapper .entry__thumb {
     overflow: hidden;
     position: relative;
