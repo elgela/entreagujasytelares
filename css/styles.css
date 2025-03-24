@@ -719,7 +719,7 @@ object {
     height: auto;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    /* margin: 0; */
+    cursor: pointer;
 }
 
 /* #image-display:hover {
@@ -3525,6 +3525,9 @@ input::-moz-focus-inner {
     margin-left: 10%;
     font-size: small;
     margin-top: -25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: darkslategrey;
 }
 
 .bricks-wrapper .entry__thumb {
