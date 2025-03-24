@@ -3,6 +3,8 @@ jq('#miElemento').click(function() {
     console.log('Sin conflictos aquí');
 });
 
+/////////////////para imágenes a pantalla completa//////////////////
+
 // Seleccionar las imágenes con la clase "image-display"
 const images = document.querySelectorAll('#image-display');
 
@@ -39,4 +41,3 @@ document.addEventListener('click', () => {
     exitFullScreen();
 });
 
-////////////obtener la fecha actual/////////////
