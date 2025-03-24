@@ -333,43 +333,4 @@ document.querySelector('.next').addEventListener('click', () => {
     updateVideo();
 });
 
-////////////obtener la fecha actual/////////////
-const fecha = new Date();
-const dia = "23/03/2025";
-const mes = fecha.toLocaleString("es-ES", { month: "long" }); //Mes en texto
-const año = fecha.getFullYear();
 
-//Mostrar la fecha en el formato deseado
-document.getElementById("fecha-publicacion").textContent = `${dia} de ${mes} de ${año}`;
-
-const fechaPublicacion = new Date(); // Cambia esto por la fecha específica si la conoces.
-const opciones = { year: 'numeric', month: 'long', day: 'numeric' }; // Configura el formato.
-document.getElementById("fecha-publicacion").textContent = fechaPublicacion.toLocaleDateString('es-ES', opciones);
-
-
-// Selecciona el formulario y el contenedor de comentarios
-const formulario = document.getElementById("formulario-comentarios");
-const listaComentarios = document.getElementById("lista-comentarios");
-
-// Agrega un evento al formulario para manejar el envío
-formulario.addEventListener("submit", function(event) {
-    event.preventDefault(); // Evita que la página se recargue
-
-    // Obtén el valor del comentario
-    const comentario = document.getElementById("comentario").value;
-
-    // Verifica que el campo no esté vacío
-    if (comentario.trim()) {
-        // Crea un nuevo elemento para el comentario
-        const nuevoComentario = document.createElement("p");
-        nuevoComentario.textContent = comentario;
-
-        // Agrega el nuevo comentario a la lista
-        listaComentarios.appendChild(nuevoComentario);
-
-        // Limpia el campo del formulario
-        document.getElementById("comentario").value = "";
-    } else {
-        alert("Por favor, escribe un comentario antes de enviarlo.");
-    }
-});
