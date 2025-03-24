@@ -163,7 +163,7 @@
      */
     --color-text: var(--color-gray-16);
     --color-text-dark: var(--color-black);
-    --color-text-light: var(--color-gray-7);
+    --color-text-light: var(--color-gray-11);
     --color-placeholder: var(--color-gray-7);
 
     /* buttons
@@ -3521,15 +3521,6 @@ input::-moz-focus-inner {
 /* -------------------------------------------------------------------
  * ## masonry entries
  * ------------------------------------------------------------------- */
-.entry__thumb p {
-    margin-left: 10%;
-    font-size: small;
-    margin-top: -25px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: bold;
-    color: darkslategrey;
-}
-
 .bricks-wrapper .entry__thumb {
     overflow: hidden;
     position: relative;
@@ -5007,6 +4998,17 @@ body.search-is-visible {
     grid-template-columns: 1fr 1fr;
 }
 
+.entry__thumb label {
+    margin-left: 5%;
+    margin-top: -15px;
+    margin-bottom: 0;
+    display: flex;
+}
+
+.entry__thumb div label {
+    /* justify-content: center; */
+}
+
 .s-content__page-content {
     max-width: 900px;
 }
@@ -5258,6 +5260,21 @@ body.search-is-visible {
         line-height: var(--vspace-1_75);
         margin-bottom: 0;
     }
+
+    .all_thumb .entry__thumb {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .all_thumb .entry__thumb div {
+        display: grid;
+        justify-content: center;
+    }
+
+    .entry__thumb label {
+        text-align: center;
+    }
+    
 }
 
 @media screen and (max-width: 550px) {
