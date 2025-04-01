@@ -1104,6 +1104,10 @@ textarea {
     grid-template-columns: 1fr 1fr;
 }
 
+.s-content__post-thumb img {
+    border-radius: 80px;
+}
+
 /* ------------------------------------------------------------------- 
  * ## medium screen devices
  * ------------------------------------------------------------------- */
