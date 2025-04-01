@@ -1089,9 +1089,19 @@ textarea {
     max-width: 100%;
 }
 
+.large-12 h5 {
+    text-align: center;
+}
+
 .large-12 label {
     line-height: 30px;
-    font-size: larger;
+    font-size: large;
+    margin: 20px;
+}
+
+.historia {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 /* ------------------------------------------------------------------- 
@@ -1289,8 +1299,13 @@ textarea {
     }
 
     .large-12 label {
-        font-size: large;
+        font-size: medium;
     }
+
+    .historia {
+        display: block;
+    }
+    
 }
 
 /* ------------------------------------------------------------------- 
@@ -5303,7 +5318,7 @@ body.search-is-visible {
     }
 
     .large-12 label {
-        font-size: medium;
+        font-size: small;
     }
 
 }
