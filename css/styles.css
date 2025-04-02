@@ -5012,6 +5012,19 @@ body.search-is-visible {
     margin: var(--vspace-1) 0 var(--vspace-1);
 }
 
+.s-content__primary #pedidos {
+    color: rgb(174, 160, 188);
+    background-color: #292727;
+    border-radius: 70%;
+    display: inline-flex;
+    padding: 15px;
+}
+
+.s-content__primary .div-pedidos {
+    display: block;
+    overflow: hidden;
+}
+
 .s-content__entry-content {
     -ms-flex: 1 1 0%;
     -webkit-box-flex: 1;
