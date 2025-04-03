@@ -4531,6 +4531,22 @@ body.search-is-visible {
     background-repeat: no-repeat;
 }
 
+.zoom-image1,
+.zoom-image2,
+.zoom-image3 {
+    animation: zoomIn 3s ease-in-out forwards;
+    height: auto;
+}
+
+@keyframes zoomIn {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.5);
+    }
+}
+
 .s-hero__slide-bg::before {
     content: "";
     display: block;
