@@ -4534,7 +4534,7 @@ body.search-is-visible {
 .zoom-image1,
 .zoom-image2,
 .zoom-image3 {
-    animation: zoomIn 3s ease-in-out forwards;
+    animation: zoomIn 4s ease-in-out forwards;
     height: auto;
 }
 
