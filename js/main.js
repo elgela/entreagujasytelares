@@ -324,15 +324,49 @@ function updateVideo() {
 }
 
 // Botón "Anterior"
-document.querySelector('.prev').addEventListener('click', () => {
-    currentIndex = (currentIndex - 1 + videos.length) % videos.length; // Navega hacia atrás
-    updateVideo();
-});
+// document.querySelector('.prev').addEventListener('click', () => {
+//     currentIndex = (currentIndex - 1 + videos.length) % videos.length; // Navega hacia atrás
+//     updateVideo();
+// });
 
 // Botón "Siguiente"
-document.querySelector('.next').addEventListener('click', () => {
-    currentIndex = (currentIndex + 1) % videos.length; // Navega hacia adelante
-    updateVideo();
+// document.querySelector('.next').addEventListener('click', () => {
+//     currentIndex = (currentIndex + 1) % videos.length; // Navega hacia adelante
+//     updateVideo();
+// });
+
+////////// envio mail desde formulario ///////////////
+document.addEventListener("DOMContentLoaded", () => {
+
+    const form = document.getElementById("contact-form");
+
+    form.addEventListener("submit", async (e) => {
+        e.preventDefault();
+        console.log("submit capturado");
+        
+
+        const data = {
+            nombre: form.nombre.value,
+            apellido: form.apellido.value,
+            email: form.email.value,
+            asunto: form.asunto.value,
+            mensaje: form.mensaje.value
+        };
+
+        const res = await fetch("https://formspree.io/f/mykzrrrb", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+                "Accept": "application/json"
+            },
+            body: JSON.stringify(data)
+        });
+
+        if (res.ok) {
+            alert("¡Mensaje enviado con éxito!");
+            form.reset();
+        } else {
+            alert("Error al enviar el mensaje.");
+        }
+    });
 });
-
-
