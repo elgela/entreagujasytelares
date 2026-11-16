@@ -21,4 +21,4 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           protocol: ftps
           local-dir: ./
-          server-dir: /public_html/entreagujasytelares
+          server-dir: /public_html/entreagujasytelares/
