@@ -58,7 +58,7 @@
 
         <div class="s-header__logo">
             <a class="logo" href="index.html">
-                <img src="images/logos/logo_nuevo-fotor-20260615232932.webp" alt="logo de entre agujas y telares">
+                <img src="images/logos/logo_nuevo-fotor-20260615232932.webp" alt="logo de entre agujas y telares" style="border-radius: 20%;">
             </a>
         </div>
 
